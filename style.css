@@ -23,7 +23,7 @@ body{
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
-    height: 80vh;
+
 }
 .text-content{
     padding: 7%;
@@ -92,6 +92,7 @@ body{
     transition:  0.3s ease;
     margin-bottom: 25px;
     width: 100%;
+    margin-top: 40px;
 }
 .proceed-btn:hover{
     background-color:hsl(245, 75%, 60%);
@@ -105,10 +106,11 @@ body{
 .cancel-btn:hover{
     color: hsl(245, 80%, 10%);
 }
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
     .container{
-        max-width: 87%;
+        max-width:87%;
         height: 70vh;
+        
     }
     .hero img{
         width: 100%;
